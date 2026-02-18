@@ -13,9 +13,27 @@
         default_layer {
             bindings = <
                 &kp ESC   &kp Q     &kp W    &kp E &kp R    &kp T     &kp Y     &kp U     &kp I     &kp O   &kp P      &kp BSPC
-                &kp TAB   &kp T     &kp S    &kp D &kp F    &kp G     &kp H     &kp J     &kp K     &kp L   &kp SEMI   &kp APOS
+                &kp TAB   &kp A     &kp S    &kp D &kp F    &kp G     &kp H     &kp J     &kp K     &kp L   &kp SEMI   &kp APOS
                 &none     &kp Z     &kp X    &kp C &kp V    &kp B     &kp N     &kp M     &kp COMMA &kp DOT &kp SLASH  &none
-                &kp LCTRL &kp LMETA &kp LALT &none &kp LSFT &kp SPACE           &kp ENTER &none     &none   &none      &kp DEL
+                &kp LCTRL &kp LMETA &kp LALT &mo 1 &kp LSFT &kp SPACE           &kp ENTER &none     &none   &none      &kp DEL
+            >;
+        };
+
+        // layer {
+        //     bindings = <
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        //         &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans
+        //     >;
+        // };
+
+        number_layer {
+            bindings = <
+                &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans
             >;
         };
     };

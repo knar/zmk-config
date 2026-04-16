@@ -28,7 +28,7 @@
         compatible = "zmk,combos";
         combo_bootloader {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <6 7 38>; // meta + F6 + F7
             bindings = <&bootloader>;
         };
     };

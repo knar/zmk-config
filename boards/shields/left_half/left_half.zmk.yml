@@ -3,8 +3,8 @@
 # for instructions.
 
 file_format: "1"
-id: lima
-name: lima
+id: left_half
+name: left_half
 type: shield
 
 # Set this to a URL that documents the keyboard.

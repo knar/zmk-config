@@ -1,0 +1,6 @@
+if SHIELD_LEFT_HALF
+
+config ZMK_KEYBOARD_NAME
+    default "left_half"
+
+endif # SHIELD_LEFT_HALF
